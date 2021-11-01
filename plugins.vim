@@ -57,6 +57,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'roxma/nvim-yarp'
     Plug 'roxma/vim-hug-neovim-rpc'
 
+    Plug 'nvim-lua/plenary.nvim'
+    Plug 'akinsho/flutter-tools.nvim'
+    
+    Plug 'lambdalisue/vim-django-support'
 
 call plug#end()
 
